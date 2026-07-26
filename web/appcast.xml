@@ -4,7 +4,7 @@
     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
 >
   <channel>
-    <title>Caffee Updates</title>
+    <title>Cacao Updates</title>
     <item>
       <title>Version 1.30.2</title>
       <sparkle:version>13002</sparkle:version>
@@ -12,7 +12,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Tue, 07 Jul 2026 10:12:31 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.30.2/Caffee-v1.30.2.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.30.2/Cacao-v1.30.2.dmg"
                 sparkle:edSignature="DGtYGLMcie3Vp2OzuIwX7MimVyPgdaygzh8kw22IDPJLJuH7lEZdwuZtg17EPFeX1M8q9cpoajDIUExLAzOsCg=="
                 length="4489806"
                 type="application/octet-stream"
@@ -32,7 +32,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Sun, 05 Jul 2026 15:42:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.30.1/Caffee-v1.30.1.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.30.1/Cacao-v1.30.1.dmg"
                 sparkle:edSignature="CzeEL9sGEeghXlsdL7MpMJJHw0GzbaK42GN6loGRQW1e3jmW43mBo16ui6PDGTABZCevwMdZfSIunEN9S3T7AQ=="
                 length="4472794"
                 type="application/octet-stream"
@@ -53,7 +53,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Fri, 03 Jul 2026 11:07:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.30.0/Caffee-v1.30.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.30.0/Cacao-v1.30.0.dmg"
                 sparkle:edSignature="+i5iW31W+zohj2xI438skQVSwdtNhYGz8A8K90WfdO2PAlVmEp4CFPDlSGEwnq6Ah4YnQ51TtK6RAupVa70RCg=="
                 length="4470187"
                 type="application/octet-stream"
@@ -72,7 +72,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Fri, 17 Apr 2026 11:20:53 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.29.0/Caffee-v1.29.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.29.0/Cacao-v1.29.0.dmg"
                 sparkle:edSignature="yclO3yRKH2kCWUuBqM2xDi1jYpXp2T6gocGEd0IFG1e5Cic6HlJZpaaqTjDoWPZD1m8w7jAR1aDFtbGiwNCsBA=="
                 length="4470778"
                 type="application/octet-stream"
@@ -92,7 +92,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Fri, 27 Mar 2026 12:00:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.28.3/Caffee-v1.28.3.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.28.3/Cacao-v1.28.3.dmg"
                 sparkle:edSignature="QdwDidEa7dAh0CYD7CcwrcjpWBjCETDxnX94PzoqsaW/1xcyn8sILYGfIWgWw0ZQoZLtuSbKwBOi2EwBwQeJDA=="
                 length="4466876"
                 type="application/octet-stream"
@@ -112,7 +112,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Fri, 27 Feb 2026 12:00:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.28.2/Caffee-v1.28.2.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.28.2/Cacao-v1.28.2.dmg"
                 sparkle:edSignature="8OY5ar2xX+OFqFFIKZtK5Yj2ulhkPxL6e7WNSV2ZfiEEQmgZN/tJhpic+80yQLPpIfggQmg0ypVNYlG8lt50Cg=="
                 length="4466933"
                 type="application/octet-stream"
@@ -133,7 +133,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Mon, 23 Feb 2026 13:00:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.28.1/Caffee-v1.28.1.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.28.1/Cacao-v1.28.1.dmg"
                 sparkle:edSignature="rtegcPcsOR2dxNVm4agD4MK+/sWyWpbQR50/sAzcYc1lKWEqWZR0QXo056nHn/BdKug4cyHvJIDzn6mn9YDNDA=="
                 length="4465970"
                 type="application/octet-stream"
@@ -154,7 +154,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Mon, 23 Feb 2026 12:00:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.28.0/Caffee-v1.28.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.28.0/Cacao-v1.28.0.dmg"
                 sparkle:edSignature="NRCeTK6NJxevKl2EMiV7gCRaCoMgRV6w8mTsTFbyN8Lwubif307L+R/BkYY4NER+lb8/FnNXa+/9zLvbOx8OCg=="
                 length="4466525"
                 type="application/octet-stream"
@@ -180,7 +180,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Wed, 11 Feb 2026 19:00:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.27.1/Caffee-v1.27.1.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.27.1/Cacao-v1.27.1.dmg"
                 sparkle:edSignature="RDZs5zVkCypsRea7eVhAJivmDMIpOgYuvivYZlxgWG951qJ3Hl6NAyqqKfx3bSBRQRzraLDfmrTwZxHWNt96AQ=="
                 length="4467045"
                 type="application/octet-stream"
@@ -202,7 +202,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Wed, 11 Feb 2026 18:00:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.27.0/Caffee-v1.27.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.27.0/Cacao-v1.27.0.dmg"
                 sparkle:edSignature="8SrAUzMyens4PBmkqFvk3I3W3UjnsI45JPyZJ7kQFCNy95RkD3vlqGw2w166aI6/n9Qj4H0hnec4dcXyXLVHAw=="
                 length="4465572"
                 type="application/octet-stream"
@@ -225,7 +225,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Tue, 10 Feb 2026 22:00:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.25.0/Caffee-v1.25.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.25.0/Cacao-v1.25.0.dmg"
                 sparkle:edSignature="7NAsauF2rXClIEXBSCYNshBCr/6hDKmAw8pFNGerSA7NJD2Mr5LoOzJseJXT5+14C5omuSKnjyw5DvouZueiBg=="
                 length="4439885"
                 type="application/octet-stream"
@@ -248,7 +248,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Mon, 09 Feb 2026 23:27:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.24.0/Caffee-v1.24.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.24.0/Cacao-v1.24.0.dmg"
                 sparkle:edSignature="WzfT8V2g+ZjMIwZgbYF17omnsGgm4CIbFDuW5YCbMV5mgLXJeBbGw0/qwdUXqMfsrTOliGprwgmokj4/y5a3BQ=="
                 length="4432028"
                 type="application/octet-stream"
@@ -271,7 +271,7 @@
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <pubDate>Mon, 09 Feb 2026 22:02:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.23.0/Caffee-v1.23.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.23.0/Cacao-v1.23.0.dmg"
                 sparkle:edSignature="0H97gS8dFMKIpyaQ4V6BV7sug0PLuC9A2w3T5jF00tMlLTVmhOpEefSGvXRE1SIdLk3L0pYjD5zW2YNuFY4kAA=="
                 length="4424516"
                 type="application/octet-stream"
@@ -294,7 +294,7 @@
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <pubDate>Sat, 07 Feb 2026 16:00:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.22.0/Caffee-v1.22.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.22.0/Cacao-v1.22.0.dmg"
                 sparkle:edSignature="kzXwIrM78ZDE1tP1JJWdAYtJtQE4DuSwXwGTQPdIyO7xKDruT9IorX/nIg3PaTMIQSeYqsIobhZr9/kJWLMlCg=="
                 length="5869350"
                 type="application/octet-stream"
@@ -316,7 +316,7 @@
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <pubDate>Sat, 31 Jan 2026 14:30:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.21.0/Caffee-v1.21.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.21.0/Cacao-v1.21.0.dmg"
                 sparkle:edSignature="kjCUf628yldb6O26HPuN6nc5oOnyygCBVUn288XhchkQh65njYTrE3lpGey+BkitbvTT7WtF4n00MyPDGH1TBg=="
                 length="4491348"
                 type="application/octet-stream"
@@ -337,7 +337,7 @@
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <pubDate>Sat, 31 Jan 2026 11:45:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.20.1/Caffee-v1.20.1.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.20.1/Cacao-v1.20.1.dmg"
                 sparkle:edSignature="wy6BHJ3t8fsR+kN0Mbkn5aB968mJliITB0T1ppePRTyUfbPRqDx6Srz7SaFZP0SQE/Tp/VQiCuXdNhFVUeeKBg=="
                 length="4272429"
                 type="application/octet-stream"
@@ -358,7 +358,7 @@
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <pubDate>Sat, 31 Jan 2026 11:27:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.20.0/Caffee-v1.20.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.20.0/Cacao-v1.20.0.dmg"
                 sparkle:edSignature="MHoVl7pecLdTYbWhALfOf+NaaEkfqWh1GyhgZepaS75+Dgzg6NTKmnW+jaebbdz75FHargRQfUGJYa/348IHDw=="
                 length="5757497"
                 type="application/octet-stream"
@@ -373,8 +373,8 @@
         </ul>
       ]]></description>
     </item>
-    <link>https://caffee.khanhicetea.com/appcast.xml</link>
-    <description>Caffee app updates</description>
+    <link>https://cacao.app/appcast.xml</link>
+    <description>Cacao app updates</description>
     <language>vi</language>
     <item>
       <title>Version 1.19.0</title>
@@ -383,7 +383,7 @@
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <pubDate>Thu, 30 Jan 2026 11:40:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.19.0/Caffee-v1.19.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.19.0/Cacao-v1.19.0.dmg"
                 sparkle:edSignature="U1GK5VCaHTj8nRJbJEinSjAmQ6WW+GqS9degAMpN9U7eHigWuSETJ+S05J/S5N/1tkS9T6044IZsn71QbSyjDQ=="
                 length="4720669"
                 type="application/octet-stream"
@@ -405,7 +405,7 @@
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <pubDate>Fri, 30 Jan 2026 10:28:28 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.18.0/Caffee-v1.18.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.18.0/Cacao-v1.18.0.dmg"
                 sparkle:edSignature="Xfum3o93CB6ZCXUxVoVKef4u1ZrXiJ2KP9qPwXRdG7u9Ohw+24NVvVrrjmFhr5uDSyA10LJZjFRLECRkEUBPBw=="
                 length="4683901"
                 type="application/octet-stream"
@@ -429,7 +429,7 @@
       <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
       <pubDate>Thu, 30 Jan 2026 12:00:00 +0700</pubDate>
       <enclosure
-                url="https://github.com/khanhicetea/Caffee/releases/download/v1.17.0/Caffee-v1.17.0.dmg"
+                url="https://github.com/cacao/Cacao/releases/download/v1.17.0/Cacao-v1.17.0.dmg"
                 sparkle:edSignature="SIGNATURE_HERE"
                 length="FILE_SIZE_BYTES"
                 type="application/octet-stream"

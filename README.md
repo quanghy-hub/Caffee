@@ -1,4 +1,4 @@
-#  Caffee
+#  Cacao
 
 Bộ gõ tiếng Việt đơn giản nhất (native cho mac, viết bằng Swift, support macOS 14+ Sonoma trở lên)
 
@@ -14,8 +14,8 @@ Bộ gõ tiếng Việt đơn giản nhất (native cho mac, viết bằng Swift
 ## Cài đặt
 
 1. Tải file .dmg phiên bản mới nhất về, mở file lên, xuất hiện khung cửa sổ
-2. Kéo thả app tên Caffee vào thư mục Applications
-3. Mở app Caffee bằng LaunchPad hoặc Spotlight (lần đầu macOS sẽ hỏi có muốn mở app không, xác nhận Mở)
+2. Kéo thả app tên Cacao vào thư mục Applications
+3. Mở app Cacao bằng LaunchPad hoặc Spotlight (lần đầu macOS sẽ hỏi có muốn mở app không, xác nhận Mở)
 4. Sau khi mở app lần đầu cần cài đặt quyền hệ thống để bộ gõ hoạt động được (theo hướng dẫn trên App)
 5. Sau khi làm theo hướng dẫn trên App, tắt App và mở lại 1 lần nữa là có thể dùng được bình thường
 
@@ -35,7 +35,7 @@ Vào menu bar > chọn 'Check for Updates' để kiểm tra và nâng cấp phi�
 - Đầu tiên việc bạn đặt ra câu hỏi mỗi khi cấp quyền là một tư duy bảo mật tốt!
 - Nếu bạn dùng macOS đã lâu sẽ thấy macOS có 2 dạng bộ gõ :
     + Chính thức nguyên tem của hệ điều hành, do Apple viết dựa trên Engine tiếng việt của Unikey, nhưng cách hoạt động là nó tạo 1 cái input giả (gọi là Buffer ảo) để bạn nhập Tiếng Việt vào đó, đó là lý do mà nó thường có gạch chân. Đến khi bạn bấm 1 key kết thúc 1 từ (như Space hay chấm phẩy), hệ điều hành mới Commit cái từ tiếng Việt đó xuống cái Input thật. Nên sẽ có hiện tượng bạn chưa gõ xong từ mà bấm chuột qua khung khác là nó Move cái từ bạn vừa gõ qua khung đó. Và còn rất nhiều bug phát sinh do dùng Input giả.
-    + Hàng chế (Caffee, GoTiengViet, OpenKey, EVKey, ...), do lập trình viên VN mơ ước về một trải nghiệm gõ tiếng Việt tốt hơn trên macOS như trên Windows (Unikey làm rất tốt). Các hàng chế này hoạt động cơ bản trên cách "Listen" (nghe toàn bộ keyboard được bấm) của bạn trên macOS, chuyển nó qua Tiếng Việt theo kiểu gõ bạn chọn, rồi lại "Send" các ký tự Tiếng Việt này xuống thẳng Input thật cho bạn. Vì thế mà tất cả app kiểu hàng chế này phải xin 2 quyền cơ bản là Listen và Send (quyền nào cũng nguy hiểm nếu tác giả không ngay thẳng)
+    + Hàng chế (Cacao, GoTiengViet, OpenKey, EVKey, ...), do lập trình viên VN mơ ước về một trải nghiệm gõ tiếng Việt tốt hơn trên macOS như trên Windows (Unikey làm rất tốt). Các hàng chế này hoạt động cơ bản trên cách "Listen" (nghe toàn bộ keyboard được bấm) của bạn trên macOS, chuyển nó qua Tiếng Việt theo kiểu gõ bạn chọn, rồi lại "Send" các ký tự Tiếng Việt này xuống thẳng Input thật cho bạn. Vì thế mà tất cả app kiểu hàng chế này phải xin 2 quyền cơ bản là Listen và Send (quyền nào cũng nguy hiểm nếu tác giả không ngay thẳng)
 - **Lưu ý :** Một khi đã cấp quyền, bạn có thể lấy lại quyền nếu muốn (nhưng nhớ tắt App trước khi làm vì đây là cái bug to đùng ở phía macOS, nó sẽ crash cả cái máy, bạn chỉ có nước bấm giữ Power để tắt hoàn toàn máy).
 
 3. Tại sao app miễn phí ?
@@ -60,7 +60,7 @@ Mọi commits đều được review và test kĩ trước khi push và release 
 ## Package .dmg file
 
 ```shell
-create-dmg "Caffee.app"
+create-dmg "Cacao.app"
 ```
 
 ## LICENSE

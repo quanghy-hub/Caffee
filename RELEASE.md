@@ -1,4 +1,4 @@
-# Release Guide for Caffee
+# Release Guide for Cacao
 
 This document describes how to set up Sparkle auto-updates and release new versions.
 
@@ -11,7 +11,7 @@ Sparkle uses EdDSA (Ed25519) keys to sign and verify updates. You need to genera
 First, build the signing tools from the Sparkle source:
 
 ```bash
-cd ~/Library/Developer/Xcode/DerivedData/Caffee-*/SourcePackages/checkouts/Sparkle
+cd ~/Library/Developer/Xcode/DerivedData/Cacao-*/SourcePackages/checkouts/Sparkle
 xcodebuild -project Sparkle.xcodeproj -scheme "generate_keys" -configuration Release build
 xcodebuild -project Sparkle.xcodeproj -scheme "sign_update" -configuration Release build
 ```
@@ -48,7 +48,7 @@ This will:
 
 ### 2. Update Info.plist with Public Key
 
-Copy the public key output and update `Caffee/Info.plist`:
+Copy the public key output and update `Cacao/Info.plist`:
 
 ```xml
 <key>SUPublicEDKey</key>
@@ -62,7 +62,7 @@ Replace `PLACEHOLDER_PUBLIC_KEY` with your actual public key (a base64-encoded s
 After updating the public key, rebuild the app:
 
 ```bash
-xcodebuild build -scheme Caffee
+xcodebuild build -scheme Cacao
 ```
 
 ---
@@ -78,12 +78,12 @@ In Xcode project settings or `project.pbxproj`:
 ### 2. Build Release
 
 ```bash
-xcodebuild build -scheme Caffee -configuration Release
+xcodebuild build -scheme Cacao -configuration Release
 ```
 
 The built app will be at:
 ```
-~/Library/Developer/Xcode/DerivedData/Caffee-*/Build/Products/Release/Caffee.app
+~/Library/Developer/Xcode/DerivedData/Cacao-*/Build/Products/Release/Cacao.app
 ```
 
 ### 3. Create DMG
@@ -92,14 +92,14 @@ Create a distributable DMG file:
 
 ```bash
 # Create a temporary folder
-mkdir -p /tmp/caffee-release
-cp -R ~/Library/Developer/Xcode/DerivedData/Caffee-*/Build/Products/Release/Caffee.app /tmp/caffee-release/
+mkdir -p /tmp/cacao-release
+cp -R ~/Library/Developer/Xcode/DerivedData/Cacao-*/Build/Products/Release/Cacao.app /tmp/cacao-release/
 
 # Create DMG
-hdiutil create -volname "Caffee" -srcfolder /tmp/caffee-release -ov -format UDZO Caffee-X.Y.Z.dmg
+hdiutil create -volname "Cacao" -srcfolder /tmp/cacao-release -ov -format UDZO Cacao-X.Y.Z.dmg
 
 # Clean up
-rm -rf /tmp/caffee-release
+rm -rf /tmp/cacao-release
 ```
 
 ### 4. Sign the Update
@@ -107,9 +107,9 @@ rm -rf /tmp/caffee-release
 Sign the DMG with Sparkle's signing tool:
 
 ```bash
-~/Library/Developer/Xcode/DerivedData/Sparkle-*/Build/Products/Release/sign_update /path/to/Caffee-X.Y.Z.dmg
+~/Library/Developer/Xcode/DerivedData/Sparkle-*/Build/Products/Release/sign_update /path/to/Cacao-X.Y.Z.dmg
 # Or if you copied to ~/bin:
-~/bin/sign_update /path/to/Caffee-X.Y.Z.dmg
+~/bin/sign_update /path/to/Cacao-X.Y.Z.dmg
 ```
 
 This will output something like:
@@ -121,10 +121,10 @@ Save both the **signature** and **file size**.
 
 ### 5. Upload DMG to GitHub Releases
 
-1. Go to https://github.com/khanhicetea/Caffee/releases
+1. Go to https://github.com/cacao/Cacao/releases
 2. Create a new release with tag `vX.Y.Z`
-3. Upload `Caffee-X.Y.Z.dmg`
-4. Note the download URL (usually `https://github.com/khanhicetea/Caffee/releases/download/vX.Y.Z/Caffee-X.Y.Z.dmg`)
+3. Upload `Cacao-X.Y.Z.dmg`
+4. Note the download URL (usually `https://github.com/cacao/Cacao/releases/download/vX.Y.Z/Cacao-X.Y.Z.dmg`)
 
 ### 6. Update appcast.xml
 
@@ -138,7 +138,7 @@ Edit `web/appcast.xml` and add a new `<item>` at the top of the channel (or upda
   <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
   <pubDate>DAY, DD MON YYYY HH:MM:SS +0700</pubDate>
   <enclosure
-    url="https://github.com/khanhicetea/Caffee/releases/download/vX.Y.Z/Caffee-X.Y.Z.dmg"
+    url="https://github.com/cacao/Cacao/releases/download/vX.Y.Z/Cacao-X.Y.Z.dmg"
     sparkle:edSignature="SIGNATURE_FROM_SIGN_UPDATE"
     length="FILE_SIZE_IN_BYTES"
     type="application/octet-stream"
@@ -162,14 +162,14 @@ Replace:
 
 ### 7. Deploy appcast.xml
 
-Push the updated `web/appcast.xml` to your website at `https://caffee.khanhicetea.com/appcast.xml`.
+Push the updated `web/appcast.xml` to your website at `https://cacao.app/appcast.xml`.
 
 ### 8. Update Website
 
 Update `web/index.html`:
 - Change the download button version
 - Add release notes to the Release Notes section
-- Add checksum: `shasum -a 256 Caffee-X.Y.Z.dmg`
+- Add checksum: `shasum -a 256 Cacao-X.Y.Z.dmg`
 
 ---
 

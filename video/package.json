@@ -1,11 +1,11 @@
 {
-  "name": "caffee-video",
+  "name": "cacao-video",
   "version": "1.0.0",
-  "description": "Promotional video for Caffee - Vietnamese IME for macOS",
+  "description": "Promotional video for Cacao - Vietnamese IME for macOS",
   "type": "module",
   "scripts": {
     "dev": "remotion studio",
-    "build": "remotion render src/index.ts CaffeePromo out/video.mp4",
+    "build": "remotion render src/index.ts CacaoPromo out/video.mp4",
     "upgrade": "remotion upgrade"
   },
   "dependencies": {

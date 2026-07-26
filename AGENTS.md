@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Caffee is a macOS Vietnamese Input Method Editor (IME) - a native keyboard input system for typing Vietnamese with diacritical marks. It supports Telex and VNI input methods with app-specific input mode memory.
+Cacao is a macOS Vietnamese Input Method Editor (IME) - a native keyboard input system for typing Vietnamese with diacritical marks. It supports Telex and VNI input methods with app-specific input mode memory.
 
 **Target**: macOS 13+ Ventura
 **Language**: Swift
@@ -14,10 +14,10 @@ Caffee is a macOS Vietnamese Input Method Editor (IME) - a native keyboard input
 
 ```bash
 # Build
-xcodebuild build -scheme Caffee
+xcodebuild build -scheme Cacao
 
 # Run tests
-xcodebuild test -scheme Caffee
+xcodebuild test -scheme Cacao
 
 # Code formatting (swift-format must be installed)
 brew install swift-format

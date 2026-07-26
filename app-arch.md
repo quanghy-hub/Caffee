@@ -1,6 +1,6 @@
-# Caffee Architecture Deep Dive
+# Cacao Architecture Deep Dive
 
-This document provides a comprehensive technical analysis of how Caffee, the macOS Vietnamese Input Method Editor (IME), processes keyboard input and transforms it into Vietnamese text with diacritical marks.
+This document provides a comprehensive technical analysis of how Cacao, the macOS Vietnamese Input Method Editor (IME), processes keyboard input and transforms it into Vietnamese text with diacritical marks.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@ This document provides a comprehensive technical analysis of how Caffee, the mac
 
 ## High-Level Architecture
 
-Caffee follows a layered architecture that separates platform-specific macOS integrations from the Vietnamese language processing engine:
+Cacao follows a layered architecture that separates platform-specific macOS integrations from the Vietnamese language processing engine:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────┐
@@ -442,7 +442,7 @@ Step 5: 's' pressed (Telex tone mark)
 
 ### 1. Diff-Based Text Replacement
 
-Instead of replacing the entire word on each keystroke, Caffee calculates the minimal diff:
+Instead of replacing the entire word on each keystroke, Cacao calculates the minimal diff:
 
 ```swift
 let (numBackspaces, diffChars) = EventSimulator.calcKeyStrokes(
@@ -554,7 +554,7 @@ if let firstDiffChar = diffChars.first, diffChars.count == 1 && firstDiffChar ==
 
 ### Secure Input Mode Detection
 
-Caffee respects macOS secure input mode (password fields):
+Cacao respects macOS secure input mode (password fields):
 
 ```swift
 @_silgen_name("CGSIsSecureEventInputSet")
@@ -568,7 +568,7 @@ if isSecureInput {
 
 ### Accessibility Permissions
 
-Caffee requires Accessibility permissions to:
+Cacao requires Accessibility permissions to:
 1. Install CGEvent tap for keyboard interception
 2. Query focused UI elements for autocomplete detection
 
@@ -583,7 +583,7 @@ func isTrusted(prompt: Bool = true) -> Bool {
 
 ## Summary
 
-Caffee's architecture demonstrates several key design principles:
+Cacao's architecture demonstrates several key design principles:
 
 1. **Separation of Concerns**: Platform-specific code is isolated from language processing logic
 2. **Immutability**: State mutations return new instances, ensuring predictability

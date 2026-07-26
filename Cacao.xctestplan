@@ -1,0 +1,38 @@
+{
+  "configurations" : [
+    {
+      "id" : "97CFBA2A-D4E0-4E30-AE1A-81D746023645",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Cacao.xcodeproj",
+      "identifier" : "3FAFBB802B84A86C0032A55E",
+      "name" : "Cacao"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Cacao.xcodeproj",
+        "identifier" : "3FAFBB932B84A86E0032A55E",
+        "name" : "CacaoTests"
+      }
+    },
+    {
+      "enabled" : false,
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Cacao.xcodeproj",
+        "identifier" : "3FAFBB9D2B84A86E0032A55E",
+        "name" : "CacaoUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
